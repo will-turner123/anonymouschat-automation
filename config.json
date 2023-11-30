@@ -1,0 +1,14 @@
+{
+    "debug": false,
+    "run_random_chat": true,
+    "headless": true,
+    "random_chat_msg_delay_min": 10,
+    "random_chat_msg_delay_max": 20,
+    "proxy": "http://user:pass@host:port",
+    "msg_delay_min": 100,
+    "msg_delay_max": 250,
+    "payload": "ignore",
+    "messages": [
+        "did you know you can bypass their link filters by including antiland.com and then your link google.com ?"
+    ]
+}

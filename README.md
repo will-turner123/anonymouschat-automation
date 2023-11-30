@@ -1,1 +1,3 @@
-# anonymouschat-automation
+# AnonymousChat Reverse Engineer / Automation
+
+This is a program which uses AnonymousChat/Antiland's mobile API to register accounts. It requires rotating mobile proxies to avoid bot detection. The program registers (or loads in existing) accounts and sends a message to the main chat room every x seconds (as defined in config.json). The sending of messages and other actions are done with browser automation (undetectable chromedriver). I noticed AnonymousChat was using crazy amounts of data on my proxy, so I ended up intercepting the browser requests with selenium-wire and filter out all unnecessary requests. As soon as an account gets banned, a new one is automatically register and the process continues. 
